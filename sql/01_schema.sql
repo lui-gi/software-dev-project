@@ -51,12 +51,7 @@ CREATE TABLE payroll (
     payID         INT  NOT NULL AUTO_INCREMENT,
     pay_date      DATE,
     earnings      DECIMAL(8,2),
-    fed_tax       DECIMAL(7,2),
-    fed_med       DECIMAL(7,2),
-    fed_SS        DECIMAL(7,2),
-    state_tax     DECIMAL(7,2),
-    retire_401k   DECIMAL(7,2),
-    health_care   DECIMAL(7,2),
-    empID         INT  NOT NULL,
+    taxes         DECIMAL(8,2),  -- total of all withholdings/deductions
+    empID        INT  NOT NULL,
     PRIMARY KEY (payID)
 );

@@ -1,8 +1,7 @@
 -- 02_foreign_keys.sql
 -- Primary/foreign key connections required for the 11/13 submission.
--- Note: the spec also lists address.empID -> employees.empID. That design
--- conflicts with the shared-address requirement (roommates), so this repo
--- uses employees.addressID -> addresses.addressID instead (see 03).
+-- The spec's address.empID -> employees.empID link is created in
+-- 03_normalization.sql, because the addresses table is defined there.
 
 USE employeeData;
 

@@ -28,7 +28,7 @@ INSERT INTO employees
 INSERT INTO employee_division (empID, divID) VALUES (1, 1), (2, 1), (3, 2);
 INSERT INTO employee_job_titles (empID, job_titleID) VALUES (1, 100), (2, 100), (3, 200);
 
-INSERT INTO payroll (pay_date, earnings, fed_tax, fed_med, fed_SS, state_tax, retire_401k, health_care, empID) VALUES
-('2026-10-31', 3653.85, 584.62, 52.98, 226.54, 182.69, 109.62, 31.11, 1),
-('2026-10-31', 3384.62, 541.54, 49.08, 209.85, 169.23, 101.54, 31.11, 2),
-('2026-10-31', 2769.23, 443.08, 40.15, 171.69, 138.46,  83.08, 31.11, 3);
+INSERT INTO payroll (pay_date, earnings, taxes, empID) VALUES
+('2026-10-31', 3653.85, 1187.56, 1),
+('2026-10-31', 3384.62, 1102.35, 2),
+('2026-10-31', 2769.23,  907.57, 3);
