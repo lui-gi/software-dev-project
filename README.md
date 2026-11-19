@@ -1,4 +1,7 @@
-repository for CSC 3350's group project
+# repository for CSC 3350's group project
+
+
+## layout 
 
 ```
 PROJECT.md # the instructions for the project
@@ -8,3 +11,5 @@ docs/ # any file we need to submit (screenshots, PDFs, etc.)
 sql/ # our schema DB files
 src/ # our java app files
 ```
+
+
